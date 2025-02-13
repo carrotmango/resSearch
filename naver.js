@@ -11,7 +11,7 @@ async function resSearch(search) {
         const html = response.data;
         const $ = cheerio.load(html);
 
-        const name = $('body .Fc1rA').text();
+        const name = $('body .GHAhO').text();
         const address = $('body .LDgIH').text();
         const telNo = $('body .xlx7Q').text();
         const url = $('a.place_bluelink').attr('href');
